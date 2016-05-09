@@ -8,10 +8,10 @@ YAML Configuration Service Provider for Silex
 [![License](https://poser.pugx.org/junker/yaml-configuration-service-provider/license)](https://packagist.org/packages/junker/yaml-configuration-service-provider)
 
 ## Requirements
-silex 1.x
+Silex 2.x
 
 ##Installation
-The best way to install YamlConfigurationServiceProvider is to use a [Composer](https://getcomposer.org/download):
+<!The best way to install YamlConfigurationServiceProvider is to use a [Composer](https://getcomposer.org/download):
 
     php composer.phar require junker/yaml-configuration-service-provider
 
@@ -35,7 +35,7 @@ $db_host = $app['config']['db']['host'];
 ```
 
 
-Config example: 
+Config example:
 ```yaml
 imports:
      - { resource: 'site/config.yml' }
@@ -51,4 +51,3 @@ facebook:
     scope: 'public_profile,email,user_birthday,user_location,user_photos'
     secret_key: FDSLKFDNSLsdre23lkndas
 ```
-
